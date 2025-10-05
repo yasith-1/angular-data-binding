@@ -1,19 +1,18 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgIf } from '@angular/common';
-import { NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Home } from "./home/home";
+import { RouterLink } from '@angular/router';
+import { RouterLinkActive } from '@angular/router';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NgIf, NgFor, FormsModule, Home],
+  imports: [RouterOutlet, FormsModule, RouterLink, RouterLinkActive],
   standalone: true,
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
 
-  
+
 }

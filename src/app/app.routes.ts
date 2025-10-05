@@ -8,7 +8,8 @@ import { Services } from './services/services';
 export const routes: Routes = [
     {
         path: '',
-        component: Home
+        redirectTo: '/home',
+        pathMatch: 'full'
     },
     {
         path: 'home',

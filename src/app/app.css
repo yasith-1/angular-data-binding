@@ -1,18 +1,19 @@
-.active{
-    background-color: blue;
-    border: none;
-    cursor: pointer;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
+ul {
+    list-style: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            padding: 8px 15px;
+            border: 1px solid rgb(95, 60, 60);
+            cursor: pointer;
+        }
+    }
 }
 
-.active:hover{
-    background-color: yellow;
-}
-
-.customDiv{
-    width: 100px;
-    height: 100px;
-    background-color: gold;
+.active {
+    color: black !important;
+    background-color: greenyellow !important;
 }

@@ -1,0 +1,18 @@
+.active{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.active:hover{
+    background-color: yellow;
+}
+
+.customDiv{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
