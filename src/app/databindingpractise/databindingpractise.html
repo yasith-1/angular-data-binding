@@ -60,7 +60,7 @@
     <ul>
         <li *ngFor="let tempCustomer of customer; index as myIndex">
             <!-- Save navigation option  >> '?' if not data comming no showing errors-->
-            {{myIndex+1}} | Name : {{tempCustomer?.name}} >> Age is : {{tempCustomer.age}}
+            {{myIndex+1}} | Name : {{tempCustomer?.name}} >> Age is : {{tempCustomer?.age}}
         </li>
     </ul>
 </div>
