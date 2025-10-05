@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { Developer } from "../developer/developer";
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -7,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './contact.html',
   styleUrl: './contact.css',
   standalone: true,
-  imports: [Developer, RouterOutlet]
+  imports: [RouterOutlet]
 })
 
 export class Contact {
