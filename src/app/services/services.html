@@ -1,3 +1,5 @@
-<h2>Service Page</h2>
+<app-search-bar (searchEmmitter)="setSearchText($event)"></app-search-bar>
+
+<h2>Searched Text : {{searchText}}</h2>
 
 <router-outlet></router-outlet>
