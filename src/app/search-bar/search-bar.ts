@@ -7,6 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './search-bar.css'
 })
 export class SearchBar {
+  // Throw event to parent component
   @Output() searchEmmitter: EventEmitter<any> = new EventEmitter<any>();
   search(searchTerm: any) {
     this.searchEmmitter.emit(searchTerm);
