@@ -1,3 +1,9 @@
 <h2>Home</h2>
 
+<!-- [customer] : this property comes in customer -template , we can dynamically change that value -->
+
+<app-customer-template *ngFor="let tempCustomer of customerList" [customer]="tempCustomer">
+
+</app-customer-template>
+
 <router-outlet />

@@ -1,0 +1,11 @@
+<p>customer-template works!</p>
+
+<div class="outer">
+    <img [src]="customer?.avatar" width="250">
+    <hr>
+    <h3>Customer Id : {{customer?.id}}</h3>
+    <h3>Customer Name : {{customer?.name}}</h3>
+    <h3>Customer Salary : {{customer?.salary | currency }}</h3>
+</div>
+
+<router-outlet />
