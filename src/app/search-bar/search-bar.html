@@ -1,4 +1,4 @@
 <div class="outer">
-    <input type="search" #searchVar placeholder="Search...">
+    <input type="search" #searchVar (keyup)="search(searchVar?.value)" placeholder="Search...">
     <button (click)="search(searchVar.value)">Search</button>
 </div>
